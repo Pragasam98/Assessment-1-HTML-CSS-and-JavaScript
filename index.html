@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Pragasam M - Full Stack Developer</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <span class="hamburger-menu" id="hamburger-menu">&#9776;</span>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <img
+        src="image/WhatsApp Image 2024-12-02 at 3.55.52 PM.jpeg"
+        alt="Profile Picture"
+      />
+      <h2>About Me</h2>
+      <p>
+        I am a passionate Full Stack Developer with a strong background in
+        design and problem-solving. Proficient in HTML, CSS, JavaScript, React,
+        and Node.js. Looking to contribute to innovative projects with a reputed
+        company's
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list"></ul>
+      <!-- Skills will be added dynamically -->
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div id="projects-container"></div>
+      <!-- Projects will be added dynamically -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2024 Pragasam.M. All rights reserved.</p>
+      <p>Designed by Pragasam M</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
